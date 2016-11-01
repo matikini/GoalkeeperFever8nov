@@ -83,6 +83,7 @@ public class clsJuego {
             Log.d("PonerFondo", "Agrando la imagen al doble");
             Fondo.runAction(ScaleBy.action(0.01f, 2.0f, 2.0f));
 
+            //hjkjh
             Log.d("PonerFondo", "Lo agrego a la capa");
             super.addChild(Fondo);
         }
